@@ -1,3 +1,10 @@
 suaidade=prompt("Qual a sua idade?")
 document.write(suaidade, " anos ")
 document.write(suaidade*365 , " dias")
+
+// 2+KM*1,4+min*0,26 > regra de negocio
+alert()
+km=20
+tempo=10
+valorcorrida=2+km*1.4+tempo*0.26
+alert("Sua corrida deu: R$" + valordacorrida.toFixed(2))
